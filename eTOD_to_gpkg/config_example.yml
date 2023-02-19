@@ -1,0 +1,13 @@
+file_settings:
+    encoding: ANSI
+    sep: ;
+    skiprows: 3
+coordinates:
+    columns:
+        longitude: Longitude
+        latitude: Latitude
+column_map:
+    Height: height
+    Height Uom: height_uom
+    Elevation: elevation
+    Elevation Uom: elevation_uom
