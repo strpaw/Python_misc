@@ -6,3 +6,6 @@ __pycache__
 !img/*.jpg
 
 *.csv
+
+eTOD_to_gpkg/logs/*
+eTOD_to_gpkg/logs/.keepfile
