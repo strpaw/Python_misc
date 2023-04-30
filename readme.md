@@ -62,3 +62,15 @@ Vostok Station.jpg
 
 
 # eTOD_to_gpkg
+
+Script to convert eTOD (Electronic Terrain and Obstacle Data) to GeoPackage.
+
+Usage:
+
+```
+python eTOD_converter.py [-i] INPUT_CSV [--input] INPUT_CSV
+                         [-o] OUTPUT_GPKG [--output] OUTPUT_GPKG
+                         [-c] CONFIG [--config] CONFIG
+```
+
+Example configuration file: see eTOD_to_gpkg/config_example.yml
