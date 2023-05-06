@@ -2,6 +2,7 @@
 - [Scripts](#Scripts)  
   - [climate_data_unit_converter](#climate_data_unit_converter)  
   - [climate_diagram_generator](#climate_diagram_generator)  
+  - [morse_encoder](#morse_encoder)  
 - [eTOD_to_gpkg](#eTOD_to_gpkg)
 
 # Scripts
@@ -60,6 +61,17 @@ Warsaw.jpg
 Vostok Station.jpg
 ![img](img//Vostok%20Station.jpg)
 
+## morse_encoder
+
+Script to convert text into Morse code - play translated message and print or save to text file.  
+
+Usage:
+```
+python morse_encoder.py -m [MESSAGE] --message [MESSAGE]
+                        [-o] [OUTPUT_FILE] [--output] [OUTPUT_FILE]
+```
+
+Note: Allowed characters in message: A-Z, space
 
 # eTOD_to_gpkg
 
