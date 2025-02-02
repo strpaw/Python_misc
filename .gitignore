@@ -1,1 +1,4 @@
 .idea
+sample_data
+__pycache__
+Pipfile.lock
