@@ -8,6 +8,7 @@ Miscellaneous Python scripts.
 - [Scripts](#scripts)
   - [climate_data_unit_converter](#climate_data_unit_converter)
   - [climate_diagram_generator](#climate_diagram_generator)
+  - [morse_encoder](#morse_encoder)
 
 # Installation <a name=installation>
 
@@ -78,3 +79,26 @@ Warsaw
 
 Vostok
 ![img](img//climate_diagrams/Vostok.jpg)
+
+## morse_encoder <a name=morse_encoder>
+
+Script to convert text into Morse code. 
+
+Notes: 
+* allowed characters in message to be encoded: A-Z, space
+* encoded message - space between words will be encoded into '/' character
+
+Usage:
+```
+python morse_encoder.py [-h]
+                        -m [MESSAGE] --message [MESSAGE]
+                        [-o] [OUTPUT_FILE] [--output] [OUTPUT_FILE]
+```
+**-h, --help**  
+display help
+
+**-m, --message**  
+message to be encoded
+
+**-o, --output**  
+path to the file with input/encoded message
